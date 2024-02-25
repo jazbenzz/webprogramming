@@ -1,4 +1,4 @@
-// script.js
+
 
 function showAlert() {
     alert('Hello, this is a bigger alert!');
@@ -41,7 +41,7 @@ function uppercaseText() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    var biggerButton = document.querySelector('button');
+    var biggerButton = document.getElementById('biggerButton');
     var fancyShmancyRadio = document.getElementById("fancyShmancyRadio");
     var boringBettyRadio = document.getElementById("boringBettyRadio");
     var mooButton = document.getElementById("mooButton");
